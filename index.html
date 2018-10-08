@@ -1,0 +1,1588 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>淘宝，淘，你喜欢！</title>
+		<link rel="stylesheet" type="text/css" href="text.css"></link>
+	</head>
+<style type="text/css">
+	* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+html,
+body {
+	width: 100%;
+	background-color: #fff;
+	height: 1000px;
+}
+
+body a {
+	color: #3c3c3c;
+}
+
+body a:hover {
+	color: #F40;
+	text-decoration: none;
+}
+
+.wrapper {
+	width: 100%;
+	height: 100%;
+}
+
+.wrapper .top-nav-wrapper {
+	width: 100%;
+	height: 35px;
+	background-color: #f5f5f5;
+	border-bottom: 1px solid #eee;
+}
+
+.wrapper .top-nav-wrapper .top-nav {
+	width: 1190px;
+	height: 35px;
+	margin: 0px auto;
+	/*border: 1px solid black;*/
+}
+
+.wrapper .top-nav-wrapper .top-nav .top-nav-1 {
+	float: left;
+}
+
+.wrapper .top-nav-wrapper .top-nav .top-nav-2 {
+	float: right;
+}
+
+.wrapper .top-nav-wrapper .top-nav-1 li {
+	float: right;
+	margin-right: 7px;
+}
+
+.wrapper .top-nav-wrapper .top-nav-2 li {
+	float: left;
+	margin-right: 7px;
+}
+
+.wrapper .top-nav-wrapper .top-nav li a {
+	color: #6c6c6c;
+	font-size: 12px;
+	line-height: 35px;
+	padding: 6px;
+}
+
+.wrapper .top-nav-wrapper .top-nav li a:hover,
+.wrapper .top-nav-wrapper .top-nav li .login {
+	color: #f40;
+}
+
+.wrapper .top-nav-wrapper .top-nav .china {
+	display: inline-block;
+	width: 80px;
+	height: 20px;
+	margin-top: 8px;
+	color: #3c3c3c;
+	font-size: 12px;
+	line-height: 35px;
+	padding-right: 6px;
+	border: none;
+	outline: none;
+	appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	background: url('img/xsj.png') no-repeat scroll right center transparent;
+	padding-right: 14px;
+}
+
+.wrapper .top-nav-wrapper .top-nav-fgx {
+	line-height: 35px;
+	color: #ddd;
+}
+
+.wrapper .top-nav-wrapper .pic {
+	display: inline-block;
+	width: 19px;
+	height: 18px;
+	vertical-align: middle;
+	background-size: 100% 100%;
+	/*border: 1px solid black;*/
+}
+
+.wrapper .top-nav-wrapper .top-nav .xsj {
+	background-image: url('img/xsj.png')
+}
+
+.wrapper .top-nav-wrapper .top-nav .shopcarpic {
+	background-image: url('img/shopcar.png');
+}
+
+.wrapper .top-nav-wrapper .top-nav .favorpic {
+	background-image: url('img/scj.png');
+}
+
+.wzdhpic {
+	background-image: url('img/wzdh.png');
+}
+
+
+/*导航栏结束*/
+
+.wrapper .search-wrapper {
+	width: 100%;
+	height: 97px;
+	/*border: 1px solid black;*/
+}
+
+.wrapper .search-wrapper .search-content {
+	width: 1190px;
+	height: 88px;
+	margin: 0 auto;
+	padding-top: 12px;
+}
+
+.wrapper .search-wrapper .search-content .log-box {
+	width: 190px;
+	height: 88px;
+	float: left;
+	margin-top: 8px;
+	/*border: 1px solid black;*/
+}
+
+.wrapper .search-wrapper .search-content .log-box .log-taobao {
+	display: block;
+	width: 142px;
+	height: 0px;
+	margin-left: 22px;
+	padding-top: 58px;
+	overflow: hidden;
+	background-image: url('img/searchlog.png');
+	margin-top: 17px;
+}
+
+
+/*logo区结束*/
+
+.wrapper .search-wrapper .search-content .search-box {
+	float: left;
+	width: 627px;
+	height: 62px;
+	vertical-align: middle;
+	/*border: 1px solid black;*/
+}
+
+.wrapper .search-wrapper .search-content .search-box .search-top {
+	width: 627px;
+	height: 22px;
+	margin-left: 17px;
+	/*	border: 1px solid black;*/
+}
+
+.wrapper .search-wrapper .search-content .search-box .search-top li {
+	float: left;
+	text-align: center;
+	width: 36px;
+	height: 22px;
+	line-height: 22px;
+	margin-right: 4px;
+	color: #f40;
+	cursor: pointer;
+	border-top-right-radius: 6px;
+	border-top-left-radius: 6px;
+	font-size: 12px;
+}
+
+.wrapper .search-wrapper .search-content .search-box .search-top li:hover {
+	background-color: #ffeee5
+}
+
+.wrapper .search-wrapper .search-content .search-box .search-top .select {
+	font-weight: 700;
+	background: linear-gradient(to right, #ff9000 0, #ff5000 100%);
+	color: #fff;
+}
+
+.wrapper .search-wrapper .search-content .search-box .search-middle {
+	margin-top: 3px;
+	width: 627px;
+	height: 40px;
+	position: relative;
+	overflow: hidden;
+	/*border: 1px solid black;*/
+}
+
+.wrapper .search-wrapper .search-content .search-box .search-middle .search-button {
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 1000;
+	width: 74px;
+	height: 40px;
+	text-align: center;
+	overflow: hidden;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+.wrapper .search-wrapper .search-content .search-box .search-middle .button-search {
+	font-size: 18px;
+	font-weight: 700;
+	color: #fff;
+	background: linear-gradient(to right, #ff9000 0, #ff5000 100%);
+	cursor: pointer;
+	height: 100%;
+	border: none;
+	width: 100%;
+}
+
+.wrapper .search-wrapper .search-content .search-box .search-middle .search-input-box {
+	margin-right: 74px;
+	border: 2px solid #ff5000;
+	height: 36px;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-right: none;
+	overflow: hidden;
+}
+
+.wrapper .search-wrapper .search-content .search-box .search-middle .search-input-box .ipt-search {
+	width: 472px;
+	height: 36px;
+	overflow: hidden;
+}
+
+.wrapper .search-wrapper .search-content .search-box .search-middle .search-input-box .ipt-search input {
+	width: 472px;
+	height: 24px;
+	line-height: 24px;
+	border: none;
+	outline: 0;
+	text-indent: 32px;
+	padding: 6px 0px;
+	background-color: #fff;
+}
+
+.wrapper .search-wrapper .search-content .search-box .search-middle .sousuo,
+.wrapper .search-wrapper .search-content .search-box .search-middle .camera {
+	display: inline-block;
+	position: absolute;
+}
+
+.wrapper .search-wrapper .search-content .search-box .search-middle .sousuo {
+	width: 24px;
+	height: 23px;
+	background-image: url('img/sousuo.png');
+	top: 10px;
+	left: 10px;
+}
+
+.wrapper .search-wrapper .search-content .search-box .search-middle .camera {
+	width: 36px;
+	height: 30px;
+	background-image: url('img/camera.png');
+	top: 5px;
+	right: 70px;
+}
+
+.wrapper .search-wrapper .search-content .search-box .search-bottom {
+	position: relative;
+	width: 589px;
+	height: 20px;
+	padding: 2px 41px 0 0;
+	/*	border: 1px solid black;*/
+	overflow: hidden;
+	margin-bottom: 5px;
+	line-height: 20px;
+}
+
+.wrapper .search-wrapper .search-content .search-box .search-bottom ul li {
+	padding: 0 4px;
+	float: left;
+}
+
+.wrapper .search-wrapper .search-content .search-box .search-bottom ul li a {
+	text-decoration: none;
+	color: #3c3c3c;
+	font-size: 12px;
+}
+
+.wrapper .search-wrapper .search-content .search-box .search-bottom ul li a:hover,
+.wrapper .search-wrapper .search-content .search-box .search-bottom ul li .t-shirt {
+	color: #ff5000;
+}
+
+
+/*搜索区结束*/
+
+.wrapper .search-wrapper .search-content .code-box {
+	height: 99px;
+	width: 76px;
+	border: 1px solid #eee;
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+	margin-left: 120px;
+}
+
+.wrapper .search-wrapper .search-content .code-box .p-taobao {
+	display: inline-block;
+	color: #ff5000;
+	text-align: center;
+	line-height: 20px;
+	margin: 4px auto 0px;
+	width: 78px;
+	font-size: 14px;
+}
+
+.wrapper .search-wrapper .search-content .code-box .close {
+	position: absolute;
+	top: 0;
+	height: 14px;
+	width: 14px;
+	border: 1px solid #eee;
+	left: -15px;
+	color: #ddd;
+	line-height: 14px;
+	text-align: center;
+}
+
+.wrapper .search-wrapper .search-content .code-box .code {
+	display: inline-block;
+	width: 62px;
+	height: 62px;
+	background-image: url('img/code.png');
+	margin-left: 5px;
+	margin-bottom: 10px;
+}
+
+.screen-nav-wrapper {
+	width: 100%;
+	height: 30px;
+	border: 1px solid #eee;
+	background: linear-gradient(to right, #ff9000 0, #ff5000 100%);
+	margin: 15px auto 0;
+}
+
+.screen-nav-tbn {
+	width: 100%;
+	height: 30px;
+	overflow: hidden;
+}
+
+.screen-nav-tbn h2 {
+	float: left;
+	width: 190px;
+	text-align: center;
+	font-size: 16px;
+	background: #ff5000;
+	height: 27px;
+	padding-top: 3px;
+	margin-left: 100px;
+	color: #fff;
+}
+
+.screen-nav-tbn li a,
+.screen-nav-tbn li {
+	float: left;
+	padding: 0 5px;
+	font-weight: 700;
+	color: #fff;
+	text-decoration: none;
+	padding-top: 2px;
+}
+
+.screen-box-wrapper {
+	width: 1190px;
+	margin: 0 100px;
+	/*border: 1px solid black;*/
+	height: 700px;
+	background-color: #f5f5f5;
+}
+
+.screen-box-wrapper .main {
+	width: 890px;
+	height: 700px;
+	/*border: 1px solid black;*/
+	float: left;
+}
+
+.screen-box-wrapper .main .main-inner .main-inner-left {
+	width: 190px;
+	height: 522px;
+	/*border: 1px solid black;*/
+	float: left;
+	font-size: 14px;
+	background-color: #fff;
+}
+
+.screen-box-wrapper .main .main-inner .main-inner-left ul {
+	border: 1px solid #ff5000;
+	border-top: none;
+	padding-top: 5px;
+	padding-bottom: 3px;
+	font-size: 14px;
+}
+
+.screen-box-wrapper .main .main-inner .main-inner-left ul li {
+	overflow: hidden;
+	line-height: 32px;
+	height: 32px;
+	padding-left: 25px;
+	padding-right: 19px;
+	position: relative;
+	font-size: 14px;
+	font-weight: 400;
+	width: 144px;
+	color: #666;
+}
+
+.screen-box-wrapper .main .main-inner .main-inner-left ul li a {
+	color: #666;
+}
+
+.screen-box-wrapper .main .main-inner .main-inner-left ul li:hover a {
+	color: #ff5000;
+}
+
+.screen-box-wrapper .main .main-inner .main-inner-left ul li:hover {
+	background-color: #ffeee5;
+}
+
+.screen-box-wrapper .main .main-inner .main-inner-left ul li span {
+	font-size: 14px;
+	float: right;
+}
+
+.screen-box-wrapper .main .main-inner .main-inner-middle {
+	width: 520px;
+	height: 512px;
+	float: left;
+	padding: 6px 6px 6px 6px;
+}
+
+.screen-box-wrapper .main .main-inner .main-inner-middle hr {
+	size: 5px;
+	color: #ff1655;
+}
+
+.screen-box-wrapper .main .main-inner .main-inner-middle .main-inner-middle-1 {
+	display: inline-block;
+	width: 520px;
+	height: 280px;
+	position: relative;
+	/*border: 1px solid black;*/
+	background-image: url('img/zjbf1.jpg');
+}
+
+.screen-box-wrapper .main .main-inner .main-inner-middle .main-inner-middle-2 {
+	display: inline-block;
+	width: 520px;
+	height: 230px;
+	position: relative;
+	overflow: hidden;
+	/*border: 1px solid black;*/
+	background-color: #f5f5f5;
+}
+
+.screen-box-wrapper .main .main-inner .main-inner-middle .main-inner-middle-2 .main-inner-middle-2-top {
+	border-bottom: 3px solid #FF1655;
+}
+
+.screen-box-wrapper .main .main-inner .main-inner-middle-2 .t-mall-pic {
+	position: absolute;
+	width: 136px;
+	height: 19px;
+	background-image: url('img/tmall.png');
+	background-repeat: no-repeat;
+	background-position: 2px 0;
+	background-size: 122px 22px;
+	line-height: 18px;
+}
+
+.screen-box-wrapper .main .main-inner .main-inner-middle-2 .t-mall-word {
+	font-size: 12px;
+	color: #666;
+	position: relative;
+	margin-left: 136px;
+}
+
+.screen-box-wrapper .main .main-inner .main-inner-middle-2 strong {
+	font-size: 12px;
+	color: #3c3c3c;
+	float: right;
+	font-family: sans-serif;
+	font-weight: 400;
+}
+
+.screen-box-wrapper .main .main-inner .main-inner-middle-2 .zjbf2 {
+	background-image: url('img/zjbf2.png');
+	position: relative;
+	width: 520px;
+	height: 201px;
+}
+
+.screen-box-wrapper .main .main-inner .main-inner-right {
+	width: 160px;
+	height: 512px;
+	float: right;
+}
+
+.screen-box-wrapper .main .main-inner .main-inner-right-1 {
+	height: 280px;
+	background-color: #fff;
+	overflow: hidden;
+	/*border: 1px solid black;*/
+	width: 160px;
+	background-image: url('img/jrrm1.png');
+}
+
+.screen-box-wrapper .main .main-inner .main-inner-right-2 {
+	overflow: hidden;
+	margin-top: 1px;
+	display: inline-block;
+	position: relative;
+	width: 160px;
+	height: 230px;
+	/*border: 1px solid black;*/
+}
+
+.screen-box-wrapper .main .main-inner .main-inner-right-2 h5 {
+	font-size: 12px;
+	font-weight: 400;
+	background: #f1f1f1;
+	color: #a1a1a1;
+	line-height: 24px;
+	padding-top: 6px;
+}
+
+.screen-box-wrapper .main .main-inner .main-inner-right-2-pic {
+	overflow: hidden;
+	display: inline-block;
+	width: 160px;
+	height: 200px;
+	background-image: url('img/jrrm.jpg');
+}
+
+.screen-box-wrapper .col-right {
+	float: left;
+	width: 290px;
+	height: 632px;
+	/*border: 1px solid black;*/
+}
+
+.screen-box-wrapper .main .main-inner .main-bottom {
+	position: relative;
+	padding: 14px 14px 12px 20px;
+	margin-top: 10px;
+	background: #fff;
+	/*border: 1px solid black;*/
+	float: left;
+	width: 850px;
+	height: 100px;
+}
+
+.screen-box-wrapper .main .main-inner .main-bottom .main-bottom-left {
+	width: 180px;
+	height: 73px;
+	float: left;
+	padding-top: 20px;
+	/*border: 1px solid black;*/
+	margin-left: 20px;
+}
+
+.screen-box-wrapper .main .main-inner .main-bottom .main-bottom-left .pic {
+	background-image: url('img/tbtt.png');
+	width: 129px;
+	height: 29px;
+	background-size: 129px 29px;
+}
+
+.screen-box-wrapper .main .main-inner .main-bottom .main-bottom-left span {
+	color: #999;
+	font-size: 12px;
+}
+
+.screen-box-wrapper .main .main-inner .main-bottom .main-bottom-right {
+	width: 630px;
+	margin-top: 5px;
+	height: 83px;
+	background-image: url('img/tbttxw.png');
+	float: left;
+	/*border: 1px solid black;*/
+	background-size: 630px 83px;
+	margin-right: 12px;
+}
+
+.screen-box-wrapper .col-right {
+	float: right;
+	width: 290px;
+	height: 100%;
+	/*border: 1px solid black;*/
+}
+
+.screen-box-wrapper .col-right .member {
+	width: 290px;
+	height: 145px;
+	background-image: url(img/login.png);
+	background-size: 290px 145px;
+	padding: 3px 0 10px 0;
+	height: 132px;
+	padding-right: inherit;
+	text-align: center;
+	/*border: 1px solid black;*/
+}
+
+.screen-box-wrapper .col-right .member .member-bd {
+	position: relative;
+	height: 91px;
+	/*border: 1px solid black;*/
+}
+
+.screen-box-wrapper .col-right .member .member-bd .bd-wrapper .logintx {
+	display: inline-block;
+	border: 3px solid #fff;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	overflow: hidden;
+	background-image: url('img/logintx.jpg');
+	background-clip: padding-box;
+	margin: 0 auto;
+}
+
+.screen-box-wrapper .col-right .member .member-bd .bd-wrapper span {
+	display: block;
+	line-height: 17px;
+	height: 17px;
+	font-weight: 400;
+}
+
+.screen-box-wrapper .col-right .member .member-bd .bd-wrapper p {
+	display: inline-block;
+	height: 17px;
+	width: 290px;
+	line-height: 17px;
+	/*border: 1px solid black;*/
+	font-size: 14px;
+}
+
+.screen-box-wrapper .col-right .member .member-bd .bd-wrapper p .p-1 {
+	display: inline-block;
+	position: relative;
+	border: none;
+	border-radius: 9px;
+	background: #ffe4db;
+	padding: 0 10px 0 20px;
+	color: #FF5000;
+	text-align: center;
+}
+
+.screen-box-wrapper .col-right .member .member-bd .bd-wrapper p .p-2 {
+	display: inline-block;
+	position: relative;
+	border: none;
+	border-radius: 9px;
+	background: #ffe4db;
+	padding: 0 10px 0 20px;
+	color: #FF5000;
+	margin-left: 2px;
+	text-align: center;
+}
+
+.screen-box-wrapper .col-right .member .member-bd .bd-wrapper p .p-1 .p-1pic {
+	position: absolute;
+	top: 0;
+	display: block;
+	left: 0;
+	height: 16px;
+	width: 16px;
+	vertical-align: middle;
+	background: url('img/p.png');
+	background-position: 0 -572.5px;
+	background-size: 24px 597px;
+}
+
+.screen-box-wrapper .col-right .member .member-bd .bd-wrapper p .p-2 .p-2pic {
+	position: absolute;
+	top: 0;
+	display: block;
+	left: 0;
+	height: 16px;
+	width: 16px;
+	vertical-align: middle;
+	background: url('img/p.png');
+	background-size: 24px 597px;
+	background-position: 0 -528px;
+}
+
+.screen-box-wrapper .col-right .member .member-ft {
+	height: 40px;
+	width: auto;
+	margin-top: 2px;
+	padding-left: 15px;
+	/*border: 1px solid black;*/
+}
+
+.screen-box-wrapper .col-right .member .member-ft .regandlog {
+	height: 25px;
+	margin-top: 8px;
+}
+
+.screen-box-wrapper .col-right .member .member-ft .regandlog .log {
+	width: 92px;
+}
+
+.screen-box-wrapper .col-right .member .member-ft .regandlog a {
+	float: left;
+	line-height: 25px;
+	width: 75px;
+	margin-right: 7px;
+	color: #fff;
+	background-image: linear-gradient(to right, #ff5000 0, #ff6f06 100%);
+	background-repeat: repeat-x;
+	border-radius: 4px;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.screen-box-wrapper .col-right .message {}
+
+.screen-box-wrapper .col-right .message a {
+	position: relative;
+	padding-left: 82px;
+	color: #f40;
+	display: block;
+	height: 26px;
+	line-height: 26px;
+	background: #ffe4dd;
+	font-size: 12px;
+	/*border: 1px solid black;*/
+}
+
+.screen-box-wrapper .col-right .message a .yjt {
+	position: absolute;
+	right: 52px;
+	top: 9px;
+	line-height: 0;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	margin-left: 32px;
+	border-width: 5px 0 5px 7px;
+	border-color: transparent transparent transparent #f40;
+}
+
+.screen-box-wrapper .col-right .notice {
+	width: 290px;
+	height: 98px;
+	padding-top: 10px;
+	background-color: #fff;
+	/*border: 1px solid black;*/
+}
+
+.screen-box-wrapper .col-right .notice .notice-hd {
+	position: relative;
+	height: 24px;
+	margin-top: 4px;
+	overflow: hidden;
+	margin-right: -2px;
+	padding: 0 8px;
+}
+
+.screen-box-wrapper .col-right .notice .notice-hd li {
+	float: left;
+	line-height: 20px;
+	width: 32px;
+	text-align: center;
+	margin: 0 11px;
+	font-size: 12px;
+}
+
+.screen-box-wrapper .col-right .notice .notice-hd .select {
+	padding: 0;
+	font-weight: 700;
+	border-bottom: 2px solid #F40;
+}
+
+.screen-box-wrapper .col-right .notice .notice-bd {
+	display: inline-block;
+	margin: 0 12px;
+	height: 50px;
+	overflow: hidden;
+	padding-top: 9px;
+	padding-bottom: 6px;
+	/*border: 1px solid black;*/
+	width: 266px;
+}
+
+.screen-box-wrapper .col-right .notice .notice-bd li {
+	float: left;
+	line-height: 25px;
+	height: 25px;
+	width: 130px;
+	overflow: hidden;
+	margin-left: 3px;
+	font-size: 12px;
+}
+
+.screen-box-wrapper .col-right .notice .notice-bd .first {
+	width: 260px;
+}
+
+.screen-box-wrapper .col-right .notice .notice-bd .first a {
+	color: #ff5000;
+}
+
+.screen-box-wrapper .col-right .moudle .moudle-nav {
+	background-color: #fff;
+	height: 231px;
+	width: 292px;
+	display: block;
+	border-top: 1px solid #f4f4f4;
+}
+
+.screen-box-wrapper .col-right .moudle .moudle-nav a p {
+	line-height: 24px;
+	color: #333;
+	font-size: 12px;
+}
+
+.screen-box-wrapper .col-right .moudle .moudle-nav a .background {
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	margin-top: 11px;
+	background-repeat: no-repeat;
+	background: url('img/p.png');
+	background-size: 24px 597px;
+}
+
+.screen-box-wrapper .col-right .moudle .moudle-nav .moudle1 {
+	position: relative;
+	border-color: #F40;
+	z-index: 11;
+	transition: border-color .1s;
+	width: 70px;
+}
+
+.screen-box-wrapper .col-right .moudle .moudle-nav li {
+	float: left;
+	width: 71px;
+	height: 75px;
+	border: 1px solid #f4f4f4;
+	border-left-color: transparent;
+	border-top-color: transparent;
+}
+
+.screen-box-wrapper .col-right .moudle .moudle-nav li a {
+	padding-top: 1px;
+	text-align: center;
+	display: block;
+}
+
+.screen-box-wrapper .col-right .moudle .moudle-nav .moudle1 a .background {
+	background-position: 0 0;
+}
+.screen-box-wrapper .col-right .moudle .moudle-nav .moudle2 a .background{
+	
+	background-position: 0px -87px;    
+}
+
+.screen-box-wrapper .col-right .moudle .moudle-nav .moudle3 a .background{
+background-position: 0 -44px;
+}
+.screen-box-wrapper .col-right .moudle .moudle-nav .moudle4 a .background{
+background-position: 0 -132px;
+}
+.screen-box-wrapper .col-right .moudle .moudle-nav .moudle5 a .background{
+background-position: 0 -176px;
+}
+
+.screen-box-wrapper .col-right .moudle .moudle-nav .moudle6 a .background{
+background-position: 0 -220px;
+}
+
+.screen-box-wrapper .col-right .moudle .moudle-nav .moudle7 a .background{
+background-position: 0 -264px;
+}
+.screen-box-wrapper .col-right .moudle .moudle-nav .moudle8 a .background{
+background-position: 0 -308px;
+}
+.screen-box-wrapper .col-right .moudle .moudle-nav .moudle9 a .background{
+background-position: 0 -352px;
+}
+.screen-box-wrapper .col-right .moudle .moudle-nav .moudle10 a .background{
+background-position: 0 -396px;
+}
+.screen-box-wrapper .col-right .moudle .moudle-nav .moudle11 a .background{
+background-position: 0 -440px;
+}
+.screen-box-wrapper .col-right .moudle .moudle-nav .moudle12 a .background{
+background-position: 0 -484px;
+}
+.screen-box-wrapper .col-right .app{
+	height: 110px;
+	width: 100%;
+	/*border: 1px solid black;*/
+	background-color: #fff;
+}
+
+.screen-box-wrapper .col-right .app h3{
+	
+	font-size: 14px;
+    padding-left: 14px;
+    height: 30px;
+    line-height: 30px;
+    position: relative;
+    z-index: 2;
+	
+}
+.screen-box-wrapper .col-right .app span{
+	
+	position: relative;
+    left: 2px;
+    font-size: 22px;
+    top: 1px;
+   
+	
+}
+.screen-box-wrapper .col-right .app a{
+position: absolute;
+    right: 10px;
+    font-size: 12px;
+    font-weight: 400;
+    }
+    .screen-box-wrapper .col-right .app .app-nav{
+    	
+    	padding-left: 23px;
+    position: relative;
+    height: 84px;
+   /* border: 1px solid black;*/
+    	
+    	
+    }
+.screen-box-wrapper .col-right .app .app-nav li{
+	
+	transition: all 0s;
+    position: relative;
+    float: left;
+    width: 32px;
+    height: 32px;
+    margin-right: 21px;
+    margin-bottom: 8px;
+	
+}
+
+
+</style>
+	<body>
+		<div class="wrapper">
+			<div class="top-nav-wrapper">
+
+				<div class="top-nav">
+					<ul class="top-nav-1">
+						<select name="xlcd" id="cd" class="china">
+
+							<option value="" class="cd">中国大陆</option>
+							<option value="" class="cd">台湾地区</option>
+							<option value="" class="cd">中国香港</option>
+							<option value="" class="cd">中国澳门</option>
+							<option value="" class="cd">直辖市</option>
+							<option value="" class="cd">ss</option>
+							<option value="" class="cd">ss</option>
+							<option value="" class="cd">ss</option>
+							<option value="" class="cd">ss</option>
+							<option value="" class="cd">ss</option>
+							<option value="" class="cd">ss</option>
+							<option value="" class="cd">ss</option>
+							<option value="" class="cd">ss</option>
+							<option value="" class="cd">ss</option>
+							<option value="" class="cd">ss</option>
+
+						</select>
+
+						</li>
+						<li class "top-nav-loginandregin">
+							<a class="login" href="#">亲，请登录</a>
+							<a href="#">免费注册</a>
+						</li>
+						<li class "top-nav-phone">
+							<a href="#">手机逛淘宝</a>
+						</li>
+
+					</ul>
+					<ul class="top-nav-2">
+						<li class "top-nav-mytaobao">
+							<a href="#">
+								<span>我的淘宝</span>
+								<span class="pic xsj"></span>
+							</a>
+						</li>
+						<li class "top-nav-shopcar">
+							<a href="#">
+								<span class="pic shopcarpic"></span>
+								<span>购物车</span>
+							</a>
+						</li>
+						<li class="top-nav-favor">
+							<a href="#">
+								<span class="pic favorpic"></span>
+								<span>收藏夹</span>
+							</a>
+							<span class="pic xsj"></span>
+						</li>
+						<li class="top-nav-spfl">
+							<a href="#">
+								商品分类
+							</a>
+						</li>
+						<li class "top-nav-fgx">
+							<a href="#">
+								<span>|</span>
+							</a>
+						</li>
+						<li class "top-nav-mjzx">
+							<a href="#">
+								<span>卖家中心</span>
+								<span class=" pic xsj"></span>
+
+							</a>
+						</li>
+						<li class "top-nav-lxkf">
+							<a href="#">
+								<span>联系客服</span>
+								<span class="pic xsj"></span>
+							</a>
+						</li>
+						<li class "top-nav-wzdh">
+							<a href="#">
+								<span class=" pic wzdhpic"></span>
+								<span>网站导航</span>
+								<span class="pic xsj"></span>
+							</a>
+						</li>
+
+					</ul>
+
+				</div>
+
+			</div>
+			<div class="search-wrapper">
+				<div class="search-content">
+					<div class="log-box">
+						<a href="#" class="log-taobao"></a>
+
+					</div>
+					<div class="search-box">
+						<div class="search-top">
+							<ul class="search-top-tab">
+								<li class="search-top-goods select">宝贝</li>
+								<li class="search-top-tmall ">天猫</li>
+								<li class="search-top-shop ">店铺</li>
+							</ul>
+						</div>
+						<div class="search-middle">
+
+							<a href="" class="sousuo"></a>
+							<div class="srk"></div>
+							<form action="" class="btn">
+								<div class="search-button">
+									<button class="button-search">搜索</button>
+								</div>
+								<div class="search-input-box">
+									<div class="ipt-search">
+										<input type="text" placeholder="家用封口机">
+									</div>
+								</div>
+
+							</form>
+
+							<a href="#" class="camera"></a>
+
+						</div>
+						<div class="search-bottom">
+							<div class="tab-bottom">
+								<ul class="btm-tab">
+									<li class="btm-tab-1">
+										<a href="#">新款连衣裙</a>
+									</li>
+									<li class="btm-tab-1">
+										<a href="#">四件套</a>
+									</li>
+									<li class="btm-tab-1">
+										<a href="#" class="t-shirt">潮流T恤</a>
+									</li>
+									<li class="btm-tab-1">
+										<a href="#">时尚女鞋</a>
+									</li>
+									<li class="btm-tab-1">
+										<a href="#">半身裙</a>
+									</li>
+									<li class="btm-tab-1">
+										<a href="#">男士外套</a>
+									</li>
+									<li class="btm-tab-1">
+										<a href="#">墙纸</a>
+									</li>
+									<li class="btm-tab-1">
+										<a href="#">行车记录仪</a>
+									</li>
+									<li class="btm-tab-1">
+										<a href="#">新款男鞋</a>
+									</li>
+									<li class="btm-tab-1">
+										<a href="#">耳机</a>
+									</li>
+									<li class="btm-tab-1">
+										<a href="#">时尚女包</a>
+									</li>
+									<li class="btm-tab-1">
+										<a href="#">沙发</a>
+									</li>
+									<li class="btm-tab-1">
+										<a href="#">短裤</a>
+									</li>
+
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="code-box">
+						<a href="" class="p-taobao">手机淘宝</a>
+						<a href="" class="code"></a>
+						<a href="" class="close">×</a>
+					</div>
+
+				</div>
+
+			</div>
+			<div class="screen-nav-wrapper">
+				<div class="screen-nav-tbn">
+					<h2>主题市场</h2>
+					<ul class="screen-nav-tbn-hd">
+						<li>
+							<a href="#">天猫</a>
+						</li>
+						<li>
+							<a href="#">聚划算</a>
+						</li>
+						<li>
+							<a href="#">天猫超市</a>
+						</li>
+						<li>|</li>
+
+					</ul>
+
+					<ul class="screen-nav-tbn-bd">
+
+						<li>
+							<a href="#">淘抢购</a>
+						</li>
+						<li>
+							<a href="#">电器城</a>
+						</li>
+						<li>
+							<a href="#">司法拍卖</a>
+						</li>
+						<li>
+							<a href="">中国质造</a>
+						</li>
+						<li>
+							<a href="">兴农扶贫</a>
+						</li>
+						<li>|</li>
+
+					</ul>
+					<ul class="screen-nav-tbn-ft">
+
+						<li>
+							<a href="">飞猪旅行</a>
+						</li>
+						<li>
+							<a href="">智能生活</a>
+						</li>
+						<li>
+							<a href="">苏宁易购</a>
+						</li>
+						<li>
+							<a href="">玩转黑科技</a>
+						</li>
+
+					</ul>
+
+				</div>
+
+			</div>
+			<div class="screen-box-wrapper">
+
+				<div class="main">
+					<div class="main-inner">
+						<div class="main-inner-left">
+							<ul>
+								<li>
+									<a href="">男装</a>/
+									<a href="">男装</a>/
+									<a href="#">女装</a>
+									<span> ><span/>
+					  	</li>
+					  	<li>
+					  		<a href="#">男装</a>/
+					  		<a href="#">男装</a>/
+					  		<a href="#">女装</a>
+					  		<span> > <span/>
+					  	</li>
+					  	<li>
+					  		<a href="#">男装</a>/
+					  		<a href="#">男装</a>/
+					  		<a href="#">女装</a>
+					  		<span> > <span/>
+					  	</li>
+					  	<li>
+					  		<a href="#">男装</a>/
+					  		<a href="#">男装</a>/
+					  		<a href="#">女装</a>
+					  		<span> > <span/>
+					  	</li>
+					  	<li>
+					  		<a href="#">男装</a>/
+					  		<a href="#">男装</a>/
+					  		<a href="#">女装</a>
+					  		<span> > <span/>
+					  	</li>
+					  	<li>
+					  		<a href="#">男装</a>/
+					  		<a href="#">男装</a>/
+					  		<a href="#">女装</a>
+					  		<span> > <span/>
+					  	</li>
+					  	<li>
+					  		<a href="#">男装</a>/
+					  		<a href="#">男装</a>/
+					  		<a href="#">女装</a>
+					  		<span> > <span/>
+					  	</li>
+					  	<li>
+					  		<a href="#">男装</a>/
+					  		<a href="#">男装</a>/
+					  		<a href="#">女装</a>
+					  		<span> > <span/>
+					  	</li>
+					  	<li>
+					  		<a href="#">男装</a>/
+					  		<a href="#">男装</a>/
+					  		<a href="#">女装</a>
+					  		<span> > <span/>
+					  	</li>
+					  	<li>
+					  		<a href="#">男装</a>/
+					  		<a href="#">男装</a>/
+					  		<a href="#">女装</a>
+					  		<span> > <span/>
+					  	</li>
+					  	<li>
+					  		<a href="#">男装</a>/
+					  		<a href="#">男装</a>/
+					  		<a href="#">女装</a><span> > <span/>
+					  	</li>
+					  	<li>
+					  		<a href="#">男装</a>/
+					  		<a href="#">男装</a>/
+					  		<a href="#">女装</a>
+					  		<span> > <span/>
+					  	</li>
+					  	<li>
+					  		<a href="#">男装</a>/
+					  		<a href="#">男装</a>/
+					  		<a href="#">女装</a>
+					  		<span> > <span/>
+					  	</li>
+					  	<li>
+					  		<a href="#">男装</a>/
+					  		<a href="#">男装</a>/
+					  		<a href="#">女装</a>
+					  		<span> > <span/>
+					  	</li>
+					  	<li>
+					  		<a href="#">男装</a>/
+					  		<a href="#">男装</a>/
+					  		<a href="#">女装</a>
+					  		<span> > <span/>
+					  	</li>
+					  	<li>
+					  		<a href="#">男装</a>/
+					  		<a href="#">男装</a>/
+					  		<a href="#">女装</a>
+					  		<span> > <span/>
+					  	</li>
+					  </ul>
+					</div>
+					<div class="main-inner-middle">
+						<div class="main-inner-middle-1"></div>
+						<div class="main-inner-middle-2">
+							<div class="main-inner-middle-2-top">
+								<span class="t-mall-pic"></span>
+									<span class="t-mall-word">理想生活上天猫</span>
+									<strong class="yema">
+								1/6
+							</strong>
+						</div>
+
+						<div class="zjbf2"></div>
+					</div>
+				</div>
+				<div class="main-inner-right">
+					<div class="main-inner-right-1"></div>
+					<div class="main-inner-right-2">
+						<h5>今日热卖</h5>
+						<div class="main-inner-right-2-pic">
+							<a href="#">
+
+							</a>
+
+						</div>
+					</div>
+				</div>
+				<div class="main-bottom">
+					<div class="main-bottom-left">
+						<div class="pic"></div>
+						<span>让你的生活更有趣</span>
+
+					</div>
+					<div class="main-bottom-right"></div>
+
+				</div>
+
+			</div>
+		</div>
+		<div class="col-right">
+			<div class="member">
+				<div class="member-bd">
+					<div class="bd-wrapper">
+
+						<a href="#" class="logintx"></a>
+						<span>"Hi"你好！</span>
+						<p>
+							<a href="#" class="p-1">
+								<span class="p-1pic"></span>
+								<span>领淘金抵钱</span>
+							</a>
+							<a href="#" class="p-2">
+								<span class="p-2pic"></span>
+								<span>会员俱乐部</span>
+							</a>
+						</p>
+					</div>
+
+				</div>
+				<div class="member-ft">
+					<div class="regandlog">
+						<a href="#" class="log">登录</a>
+						<a href="#" class="reg">注册</a>
+						<a href="#" class="opshop">开店</a>
+
+					</div>
+
+				</div>
+
+			</div>
+			<div class="message">
+				<a href="#">网上有害信息举报
+					<span class="yjt"></span>
+
+				</a>
+
+			</div>
+			<div class="notice">
+				<ul class="notice-hd">
+					<li>
+						<a href="#" class="select">公告</a>
+					</li>
+					<li>
+						<a href="#">论坛</a>
+					</li>
+					<li>
+						<a href="#">规则</a>
+					</li>
+					<li>
+						<a href="#">安全</a>
+					</li>
+					<li>
+						<a href="#">公益</a>
+					</li>
+				</ul>
+
+				</ul>
+				<ul class="notice-bd">
+					<li class="first">
+						<a href="#">植树节时装秀进入倒计时</a>
+					</li>
+					<li>
+						<a href="#">淘宝首度揭秘超级会员</a>
+					</li>
+					<li>
+						<a href="#">淘宝撬动返乡潮</a>
+					</li>
+			</div>
+			<div class="moudle">
+				<ul class="moudle-nav">
+
+					<li class="moudle1 select min">
+						<a href="">
+							<span class="background"></span>
+							<p>充话费</p>
+						</a>
+					</li>
+
+					<li class="moudle2">
+						<a href="">
+							<span class="background"></span>
+							<p>旅行</p>
+						</a>
+					</li>
+
+					<li class="moudle3">
+						<a href="">
+							<span class="background"></span>
+
+							<p>车险</p>
+						</a>
+					</li>
+
+					<li class="moudle4">
+						<a href="">
+							<span class="background"></span>
+
+							<p>游戏</p>
+						</a>
+					</li>
+
+					<li class="moudle5">
+						<a href="">
+							<span class="background"></span>
+
+							<p>彩票</p>
+						</a>
+					</li>
+
+					<li class="moudle6">
+						<a href="">
+							<span class="background"></span>
+							<p>电影</p>
+						</a>
+					</li>
+
+					<li class="moudle7">
+						<a href="">
+							<span class="background"></span>
+
+							<p>酒店</p>
+						</a>
+					</li>
+
+					<li class="moudle8">
+						<a href="">
+							<span class="background"></span>
+
+							<p>理财</p>
+						</a>
+					</li>
+
+					<li class="moudle9">
+						<a href="">
+							<span class="background"></span>
+
+							<p>找服务</p>
+						</a>
+					</li>
+
+					<li class="moudle10">
+						<a href="">
+							<span class="background"></span>
+
+							<p>演出</p>
+						</a>
+					</li>
+
+					<li class="moudle11">
+						<a href="">
+							<span class="background"></span>
+
+							<p>水电煤</p>
+						</a>
+					</li>
+
+					<li class="moudle12">
+						<a href="">
+							<span class="background"></span>
+
+							<p>火车票</p>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="app">
+				
+				<h3>
+					
+					
+					阿里APP
+					
+					
+					
+					
+					<a href="#" class="more">
+						更多
+						<span> ›</span>
+					</a>
+					
+					
+				</h3>
+				<ul class="app-nav">
+					
+					<li class="nav1">
+						<img src="img/taobao.png"/>
+					</li>
+					<li class="nav2">
+						<img src="img/tianmao.png"/style="position: relative;top: 1px;">
+					</li>
+					<li class="nav3">
+						<img src="img/juhuasuan.png"/ style="top: -4px;display: block;position: relative;">
+					</li>
+					<li class="nav4">
+						<img src="img/zhifubao.png"/style="position: relative;top: -2px;">
+					</li>
+					<li class="nav5">
+						<img src="img/wangwang.png"/>
+					</li>
+					<li class="nav6">
+						<img src="img/gddt.png"/style="position: relative;top: 3px;">
+					</li>
+					<li class="nav7">
+						<img src="img/dingding.png"/style="position: relative;top: 4px;">
+					</li>
+					<li class="nav8">
+						<img src="img/youku.png"/style="position: relative;top: 6px;">
+					</li>
+					<li class="nav9">
+						<img src="img/taopiaopiao.png"/style="position: relative;top: 5px;left: 2px;">
+					</li>
+					<li class="nav10">
+						<img src="img/tudou.png"/style="position: relative;top: 3px;">
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		</div>
+		</div>
+
+		</div>
+
+		</div>
+	</body>
+
+</html>
+<!DOCTYPE html>
